@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+//simple addtion cpp program
 void addition(){
 int a,b, tot;
 cout << "Enter the first number:" ;
