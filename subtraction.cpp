@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+//simple subtraction cpp program
 void subtraction(){
     int a, b, c;
     cout << "Enter the first number:";
