@@ -12,9 +12,16 @@ void declareVaribales(){
     string stringText = "Welcome to Learn C++"; // String (Group of texts)
     cout << stringText << "\n";
     bool trueResult = true; // Boolean (True or False)
-    cout << trueResult;
+    cout << trueResult << "\n";
+}
+//C++ Declare Multiple Variables
+void multiVariables(){
+    int a = 5, b = 10, c = 15, d; // same integer type varibales using ,
+    d = a + b + c;
+    cout << d;
 }
 int main(){
     declareVaribales();
+    multiVariables();
     return 0;
 }
