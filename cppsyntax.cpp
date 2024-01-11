@@ -1,3 +1,4 @@
+//c++ Syntax
 #include <iostream>// Header file library
 using namespace std;// Use names for objects and variables from the standard library
 // CPP ignores white space
