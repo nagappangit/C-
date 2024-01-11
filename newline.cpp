@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//c++ Output
 int main(){
     cout << "This is first line \n"; // printing new line
     cout << "Print the new line \n"; 
