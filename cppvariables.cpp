@@ -18,10 +18,18 @@ void declareVaribales(){
 void multiVariables(){
     int a = 5, b = 10, c = 15, d; // same integer type varibales using ,
     d = a + b + c;
-    cout << d;
+    cout << d << "\n";
+}
+//C++ Identifiers
+void indenTifiers(){
+    int monthsPeryear = 12; // this is identifier / unique names are called identifiers
+    cout << monthsPeryear << "\n";
+    int m = 12; // Yes, but not so easy to understand what "m" actually is
+    cout << m << "\n";
 }
 int main(){
     declareVaribales();
     multiVariables();
+    indenTifiers();
     return 0;
 }
