@@ -27,9 +27,19 @@ void indenTifiers(){
     int m = 12; // Yes, but not so easy to understand what "m" actually is
     cout << m << "\n";
 }
+//C++ Constants
+void consTants(){
+    const int minutes = 60; // minutes value is always 60
+    cout << minutes << "\n";
+    const char interestRate = 'I'; // interestRate name is always I
+    cout << interestRate << "\n";
+    const string university = "Anna University"; // university name is always Anna University
+    cout << university;
+}
 int main(){
     declareVaribales();
     multiVariables();
     indenTifiers();
+    consTants();
     return 0;
 }
