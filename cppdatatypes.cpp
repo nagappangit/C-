@@ -11,15 +11,15 @@ void dataTypes(){
     int age; // This is integer data type / The full value
     cout << "Enter your age: " << endl;
     cin >> age;
-    double hight; // This is floating point value
-    cout << "Enter your hight: " << endl;
-    cin >> hight;
+    double height; // This is floating point value
+    cout << "Enter your height: " << endl;
+    cin >> height;
     float weight; // This is floating point value
     cout << "Enter your weight" << endl;
     cin >> weight;
     cout << "Name: " << name << endl;
     cout << "Age: " << age << endl;
-    cout << "Hight: " << hight << h << endl;
+    cout << "Height: " << height << h << endl;
     cout << "Weight: " << weight << u <<  endl;
 }
 int main(){
