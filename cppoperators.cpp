@@ -71,8 +71,54 @@ void assignmentoperators(){
     b = b << a;
     cout << b << endl;
 }
+//C++ Comparison Operators
+void comparisonoperators(){
+    int a,b;
+    cout << "Enter the first number:" << endl;
+    cin >> a;
+    cout << "Enter the second number" << endl;
+    cin >> b;
+    if(a == b){ // Equal to operator
+        cout << a << endl;
+    }
+    else {
+        cout << b << endl;
+    }
+    if(a != b){ // Not equal operator
+        cout << a << endl;
+    }
+    else{
+        cout << b << endl;
+    }
+    if(a > b){ // Greater than operator
+        cout << a << endl;
+    }
+    else{
+        cout << b << endl;
+    }
+    if(a < b){ // Less than operator
+        cout << a << endl;
+    }
+    else{
+        cout << b << endl;
+    }
+    if (a >= b){ // Greater than or equal to operator
+        cout << a << endl;
+    }
+    else{
+        cout << b << endl;
+    }
+    if(a <= b){ // Less than or equal to operator
+        cout << a << endl;
+    }
+    else{
+        cout << b << endl;
+    }
+}
+
 int main(){
     arithmeticoperators();
     assignmentoperators();
+    comparisonoperators();
     return 0;
 }
