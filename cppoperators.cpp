@@ -115,10 +115,42 @@ void comparisonoperators(){
         cout << b << endl;
     }
 }
-
+//C++ Logical Operators
+void logicaloperators(){
+    int a,b;
+    cout << "Enter the first number:" << endl;
+    cin >> a;
+    cout << "Enter the second number" << endl;
+    cin >> b;
+    if( a < 10 && b > 10){ // Logical and operator
+        a = a + b;
+        cout << "The resut is: " << a << endl;
+    }
+    else{
+        b = b - a;
+        cout << "The resut is: " << a << endl;
+    }
+    if( a < 10 || b > 10){ // Logical or operator
+        a = a + b;
+        cout << "The resut is: " << a << endl;
+    }
+    else{
+        b = b - a;
+        cout << "The resut is: " << a << endl;
+    }
+    if(!(a < b)){ // Logical not operator
+        a = a + b;
+        cout << "The resut is: " << a << endl;
+    }
+    else{
+        b = b - a;
+        cout << "The resut is: " << a << endl;
+    }
+}
 int main(){
     arithmeticoperators();
     assignmentoperators();
     comparisonoperators();
+    logicaloperators();
     return 0;
 }
