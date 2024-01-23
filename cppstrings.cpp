@@ -35,8 +35,8 @@ void numbersandstrings(){
     cout << "Your Name is " << firstname + " " + lastname; // Strings are concatenated
 }
 int  main(){
-    //stringtext();
-    //stringconcatenation();
+    stringtext();
+    stringconcatenation();
     numbersandstrings();
     return 0;
 }
