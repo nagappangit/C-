@@ -34,9 +34,17 @@ void numbersandstrings(){
     cin >> lastname;
     cout << "Your Name is " << firstname + " " + lastname; // Strings are concatenated
 }
+//C++ String Length
+void stringlength(){
+    string name;
+    cout << "Enter your name: ";
+    cin >> name;
+    cout << name << " " << "Your Name length is: " << name.length();
+}
 int  main(){
     stringtext();
     stringconcatenation();
     numbersandstrings();
+    stringlength();
     return 0;
 }
