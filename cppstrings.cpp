@@ -39,12 +39,21 @@ void stringlength(){
     string name;
     cout << "Enter your name: ";
     cin >> name;
-    cout << name << " " << "Your Name length is: " << name.length();
+    cout << name << " " << "Your Name length is: " << name.length(); // We get the length of a string, use the length() / size() function
+}
+//C++ Access Strings
+void accessstrings(){
+    string myName;
+    cout << "Enter your name: ";
+    cin >> myName;
+    cout << "Your Name is: " << myName << endl;
+    cout << "Your Name's First Letter is: " << myName[0]; // We can access the characters in a string by referring to its index number inside square brackets []
 }
 int  main(){
     stringtext();
     stringconcatenation();
     numbersandstrings();
     stringlength();
+    accessstrings();
     return 0;
 }
