@@ -55,11 +55,11 @@ void changestringcharacters(){
     char letter;
     cout << "Enter your name: ";
     cin >> myName;
-    cout << "Your Name is: " << myName << endl;
-    cout << "Enter the change of First Letter: ";
+    cout << "Your name is: " << myName << endl;
+    cout << "Enter the change of first letter: ";
     cin >> letter;
-    myName[0] = letter;
-    cout << "Now The Name is: " << myName << endl;
+    myName[0] = letter; // change the value of a specific character in a string
+    cout << "Now the name is: " << myName << endl;
 }
 int  main(){
     stringtext();
