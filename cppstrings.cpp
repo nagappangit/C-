@@ -49,11 +49,24 @@ void accessstrings(){
     cout << "Your Name is: " << myName << endl;
     cout << "Your Name's First Letter is: " << myName[0]; // We can access the characters in a string by referring to its index number inside square brackets []
 }
+// C++ Change String Characters
+void changestringcharacters(){
+    string myName;
+    char letter;
+    cout << "Enter your name: ";
+    cin >> myName;
+    cout << "Your Name is: " << myName << endl;
+    cout << "Enter the change of First Letter: ";
+    cin >> letter;
+    myName[0] = letter;
+    cout << "Now The Name is: " << myName << endl;
+}
 int  main(){
     stringtext();
     stringconcatenation();
     numbersandstrings();
     stringlength();
     accessstrings();
+    changestringcharacters();
     return 0;
 }
