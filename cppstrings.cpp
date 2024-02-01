@@ -61,6 +61,17 @@ void changestringcharacters(){
     myName[0] = letter; // change the value of a specific character in a string
     cout << "Now the name is: " << myName << endl;
 }
+//C++ Special Characters
+void specialcharacters(){
+    string statement = "India is our \"Nation\""; // Double quote
+    cout << statement << endl;
+    string statement2 = "It\'s Very good news."; // Single quote
+    cout << statement2 << endl;
+    string statement3 = "This is C++ Special Characters \nTutorial."; // New Line
+    cout << statement3 << endl;
+    string statement4 = "This is C++ Special Characters \t Tutorial."; // Tab
+    cout << statement4;
+}
 int  main(){
     stringtext();
     stringconcatenation();
@@ -68,5 +79,6 @@ int  main(){
     stringlength();
     accessstrings();
     changestringcharacters();
+    specialcharacters();
     return 0;
 }
