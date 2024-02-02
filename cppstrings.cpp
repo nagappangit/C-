@@ -72,6 +72,17 @@ void specialcharacters(){
     string statement4 = "This is C++ Special Characters \t Tutorial."; // Tab
     cout << statement4;
 }
+//C++ User Input Strings
+void userinputstrings(){
+    string yourName, name;
+    cout << "Enter your name: ";
+    cin >> yourName; // cin considers a space as a terminating character, which means that it can only store a single word even if you type many words
+    cout << "Your name is: " << yourName << endl;
+    cout << "Type your name and father name: ";
+    cin >> name;
+    getline (cin, name);
+    cout << "Your name is: " << name;
+}
 int  main(){
     stringtext();
     stringconcatenation();
@@ -80,5 +91,6 @@ int  main(){
     accessstrings();
     changestringcharacters();
     specialcharacters();
+    userinputstrings();
     return 0;
 }
