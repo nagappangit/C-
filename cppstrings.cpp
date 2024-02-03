@@ -83,6 +83,14 @@ void userinputstrings(){
     getline (cin, name);
     cout << "Your name is: " << name;
 }
+//C++ String Namespace
+void stringnamespace(){
+    std::string name; // using namespace std line can be omitted and replaced with the std keyword, followed by the :: operator
+    std::cout << "Enter your name: ";
+    std::cin >> name;
+    std::cout << "Your name is: ";
+    std::cout << name;
+}
 int  main(){
     stringtext();
     stringconcatenation();
@@ -92,5 +100,6 @@ int  main(){
     changestringcharacters();
     specialcharacters();
     userinputstrings();
+    stringnamespace();
     return 0;
 }
