@@ -63,7 +63,7 @@ void othermathfunctions(){
     cout << "The value of sqrt(a2 +b2) is: " << hypot(a, b) << endl;
 }
 int main(){
-    //maxandmin();
+    maxandmin();
     othermathfunctions();
     return 0;
 }
