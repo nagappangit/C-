@@ -28,7 +28,7 @@ void cppelse(){
     }
 }
 int main(){
-    //ifelse();
+    ifelse();
     cppelse();
     return 0;
 }
