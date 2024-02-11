@@ -27,8 +27,24 @@ void cppelse(){
         cout << "You are not an eligible person to vote in India!!!";
     }
 }
+//C++ Else If
+void elseif(){
+    int age;
+    cout << "Enter your age: ";
+    cin >> age;
+    if(age > 18){ // Use if to specify a block of code to be executed, if a specified condition is true
+        cout << "You are an eligible person to vote in India!!!";
+    }
+    else if(age == 18){ //  Use else to specify a block of code to be executed if the condition is false
+     cout << "You are an eligible person to vote in India!!!";        
+    }
+    else{
+        cout << "You are not an eligible person to vote in India!!!";
+    }
+}
 int main(){
     ifelse();
     cppelse();
+    elseif();
     return 0;
 }
