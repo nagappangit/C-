@@ -42,9 +42,19 @@ void elseif(){
         cout << "You are not an eligible person to vote in India!!!";
     }
 }
+//C++ Short Hand If Else
+void shorthandifelse(){
+    int age;
+    string output;
+    cout << "Enter your age: ";
+    cin >> age;
+    output = ( age >= 18) ? "You are an eligible person to vote in India!!!" : "You are not an eligible person to vote in India!!!"; // Ternary operator because it consists of three operands.
+    cout << output;
+}
 int main(){
     ifelse();
     cppelse();
     elseif();
+    shorthandifelse();
     return 0;
 }
