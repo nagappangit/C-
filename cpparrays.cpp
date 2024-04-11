@@ -12,7 +12,20 @@ void arrays(){
     cout << election[3] << endl;
     cout << election[4] << endl;
 }
+//C++ Arrays and Loops
+void arraysandloops(){
+string electioncampaignmedia[5];
+for(int i = 0; i < 5; i++){
+    cout << "Enter the Election Campaign Media:";
+    cin >> electioncampaignmedia[i];
+}
+cout << "The Election Campaign Medias are here:" << endl;
+for(int i = 0; i < 5; i++){
+    cout << electioncampaignmedia[i] << endl;
+}
+}
 int main(){
-    arrays();
+    //arrays();
+    arraysandloops();
     return 0;
 }
