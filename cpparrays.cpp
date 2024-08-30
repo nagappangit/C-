@@ -3,7 +3,7 @@
 #include <cmath>
 
 using namespace std;
-//C++ Arrays
+// C++ Arrays
 void arrays(){
     string election[5] = {"facebook", "twitter", "linkedin", "instagram", "pinteret"};
     cout << election[0] << endl;
@@ -12,7 +12,7 @@ void arrays(){
     cout << election[3] << endl;
     cout << election[4] << endl;
 }
-//C++ Arrays and Loops
+// C++ Arrays and Loops
 void arraysandloops(){
 string electioncampaignmedia[5];
 for(int i = 0; i < 5; i++){
@@ -24,8 +24,23 @@ for(int i = 0; i < 5; i++){
     cout << electioncampaignmedia[i] << endl;
 }
 }
+// C++ Omit Array Size
+void omitarraysize(){
+     // Omit the size of the array, compiler will deduce the size
+    int numbers[] = {1, 2, 3, 4, 5};
+
+    // Calculate the size of the array
+    int size = sizeof(numbers) / sizeof(numbers[0]);
+
+    // Print the array elements
+    cout << "Array Elements: ";
+    for (int i = 0; i < size; ++i) {
+        cout << numbers[i] << " " << endl;
+    }
+}
 int main(){
-    //arrays();
-    arraysandloops();
+    // arrays();
+    // arraysandloops();
+    omitarraysize();
     return 0;
 }
