@@ -38,9 +38,24 @@ void omitarraysize(){
         cout << numbers[i] << " " << endl;
     }
 }
+// Omit Elements on Declaration
+void omitelementseondeclaration(){
+     // Omit the size of the array, compiler will deduce the size
+    int numbers[] = {1, 2, 3, 4, 5};
+
+    // Calculate the size of the array
+    int size = sizeof(numbers) / sizeof(numbers[0]);
+
+    // Print the array elements
+    cout << "Array Elements: ";
+    for (int i = 0; i < size; ++i) {
+        cout << numbers[i] << " " << endl;
+    }
+}
 int main(){
     // arrays();
     // arraysandloops();
-    omitarraysize();
+    // omitarraysize();
+    omitelementseondeclaration();
     return 0;
 }
