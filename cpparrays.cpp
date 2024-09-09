@@ -72,11 +72,30 @@ void arraysize(){
         cout << numbers[i] << " " << endl;
     }
 }
+// C++ Multi-Dimensional Arrays
+void twodimensionalarrays() {
+    // Declare and initialize a 2D array
+    int matrix[3][3] = {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+    };
+
+    // Loop through the 2D array
+    cout << "2D Array elements:\n";
+    for (int i = 0; i < 3; ++i) {        // Loop over rows
+        for (int j = 0; j < 3; ++j) {    // Loop over columns
+            std::cout << matrix[i][j] << " ";
+        }
+        cout << endl;
+    }
+}
 int main(){
     // arrays();
     // arraysandloops();
     // omitarraysize();
     // omitelementseondeclaration();
-    arraysize();
+    // arraysize();
+    twodimensionalarrays();
     return 0;
 }
