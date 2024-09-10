@@ -85,7 +85,7 @@ void twodimensionalarrays() {
     cout << "2D Array elements:\n";
     for (int i = 0; i < 3; ++i) {        // Loop over rows
         for (int j = 0; j < 3; ++j) {    // Loop over columns
-            std::cout << matrix[i][j] << " ";
+            cout << matrix[i][j] << " ";
         }
         cout << endl;
     }
